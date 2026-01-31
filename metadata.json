@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Excel Merger & Sorter",
+  "description": "複数のExcelファイルを「構成」「内容」「テンプレ」シートごとに結合し、大問番号順に並べ替えて出力する高度なツールです。",
+  "requestFramePermissions": []
+}
