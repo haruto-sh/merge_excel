@@ -1,6 +1,5 @@
-
 import * as XLSX from 'xlsx';
-import { SheetNames } from '../types';
+import { SheetNames } from '../types.ts';
 
 /**
  * 自然順序ソート（1, 2, 10...）
