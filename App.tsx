@@ -160,7 +160,7 @@ const App: React.FC = () => {
               <div className="relative z-10">
                 <h2 className="text-3xl font-black mb-3">試験種ごとの自動結合</h2>
                 <p className="text-slate-400 text-sm max-w-lg leading-relaxed">
-                  ファイル名から試験種を自動判別します。`A中学_2026_1_1` と `A中学_2026_1_2` をアップロードすると、自動的に `A中学_2026_1` としてまとめられます。
+                  ファイル名から試験種を自動判別します。`A中学_2026_小学理科_1_1` と `A中学_2026_小学理科_1_2` をアップロードすると、自動的に `A中学_2026_小学理科_1` としてまとめられます。
                 </p>
               </div>
             </div>
@@ -338,7 +338,7 @@ const App: React.FC = () => {
                 <div>
                   <h5 className="font-black text-slate-800 mb-1 leading-none text-lg">自動グルーピング</h5>
                   <p className="text-xs text-slate-400 font-medium leading-relaxed mt-2">
-                    `_数字` 以外の部分が同じファイルは同じグループになります。例: `A中_国語_1` と `A中_国語_2` は `A中_国語` に結合。
+                    `_数字` 以外の部分が同じファイルは同じグループになります。例: `A中学_2026_小学理科_1_1` と `A中学_2026_小学理科_1_2` は `A中学_2026_小学理科_1` に結合。
                   </p>
                 </div>
               </div>
