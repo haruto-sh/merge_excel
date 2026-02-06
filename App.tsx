@@ -369,11 +369,11 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div className="mt-10 p-6 bg-white rounded-3xl border border-slate-100 flex items-center space-x-4">
-                <div className="p-3 bg-indigo-50 rounded-2xl">
+                <div className="bg-white p-4 rounded-3xl shadow-sm h-fit border border-slate-100">
                   <Info className="w-6 h-6 text-indigo-500" />
                 </div>
+                <h5 className="font-black text-slate-800 mb-1 leading-none text-lg">一括ダウンロード対応</h5>
                 <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                  <span className="font-bold text-indigo-600">一括ダウンロード対応:</span> 
                   複数の試験種を処理した際は、ページ上部のボタンからZIP形式で一括保存できるようになりました。
                 </p>
               </div>
